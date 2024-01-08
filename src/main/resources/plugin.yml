@@ -1,0 +1,4 @@
+name: SecurityAPIServer-Bukkit
+version: '${version}'
+main: org.dev.securityapiserverbukkit.SecurityAPIServer_Bukkit
+api-version: '1.19'
