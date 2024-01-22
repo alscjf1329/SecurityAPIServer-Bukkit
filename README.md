@@ -11,6 +11,8 @@ SecurityAPIServer-Bukkit은 Minecraft Bukkit 서버 플러그인으로, Security
 
 ### 플러그인 적용 방법
 - Bukkit 서버 내 `plugins` 디렉토리에 `SecurityAPIServer-Bukkit.jar` 파일 존재해야 합니다.
+- SecurityAPIServer-Bungee 플러그인이 함께 적용되어야 합니다.
+  - [SecurityAPIServer-Bungee 플러그인](https://github.com/alscjf1329/SecurityAPIServer-Bungee)
 
 ## 적용 확인 테스트
-### 
+### [SecurityAPIServer-Bungee 적용 확인 테스트](https://github.com/alscjf1329/SecurityAPIServer-Bungee?tab=readme-ov-file#postman-url)
