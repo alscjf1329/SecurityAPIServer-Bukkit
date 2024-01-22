@@ -3,11 +3,10 @@ package org.dev.securityapiserverbukkit.listener;
 import com.google.common.io.ByteArrayDataInput;
 import com.google.common.io.ByteStreams;
 import org.bukkit.entity.Player;
-import org.bukkit.plugin.messaging.PluginMessageListener;
 import org.dev.securityapiserverbukkit.service.CopyService;
 import org.dev.securityapiserverbukkit.views.OutViews;
 
-public class PluginMessageReceiver implements PluginMessageListener {
+public class PluginMessageListener implements org.bukkit.plugin.messaging.PluginMessageListener {
 
     @Override
     public void onPluginMessageReceived(String channel, Player player, byte[] message) {

@@ -2,7 +2,7 @@ package org.dev.securityapiserverbukkit;
 
 import org.bukkit.plugin.java.JavaPlugin;
 import org.dev.securityapiserverbukkit.listener.Channel;
-import org.dev.securityapiserverbukkit.listener.PluginMessageReceiver;
+import org.dev.securityapiserverbukkit.listener.PluginMessageListener;
 
 public final class SecurityAPIServer_Bukkit extends JavaPlugin {
 
@@ -11,7 +11,7 @@ public final class SecurityAPIServer_Bukkit extends JavaPlugin {
         // Plugin startup logic
         this.getServer().getMessenger()
             .registerIncomingPluginChannel(this, Channel.BUNGEECORD_CHANNEL,
-                new PluginMessageReceiver());
+                new PluginMessageListener());
     }
 
     @Override
